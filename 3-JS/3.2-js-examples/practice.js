@@ -7,3 +7,11 @@ function calculateArea() {
     const area = fieldLength * fieldWidth
     document.querySelector("#area").value = area
 }
+
+function calculateRefund() {
+    const smallBottles = document.querySelector("#small-bottles").value
+    const largeBottles = document.querySelector("#large-bottles").value
+    const refund = smallBottles * 0.1 + largeBottles * 0.25
+    document.querySelector("#refund").value = refund
+}
+
